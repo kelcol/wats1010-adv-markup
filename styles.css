@@ -1,1 +1,119 @@
-/* Styles for the Advanced Markup assignment. */
+a:link {
+    color: magenta;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+nav {
+    background-color: turquoise;
+    width: 100;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+
+table {
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+caption, cite {
+    text-align: center;
+}
+
+h2 {
+    background-color: yellow;
+    color: purple;
+}
+
+/* Sidebar - Float */
+
+#sidebar {
+    width: 250px;
+    float: right;
+    background-color: #61492C;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+/* Content */
+
+.poem {
+    list-style-type: none;
+}
+
+div.bio-photo {
+    background-color: #B8A486;
+    float: left;
+    display: block;
+    align-content: center;
+    margin: 2%;
+    width: 35%;
+}
+
+
+
+.bio-photo img {
+    display: block;
+    align-content: center;
+    padding: 2%;
+    margin: auto;
+}
+
+
+
+
+nav ul li{
+    display: inline;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+#selected_works {
+    background-color: pink;
+}
+
+#selected_works th, td {
+    text-align: left;
+}
+
+#selected_works caption {
+    background-color: yellowgreen;
+}
+
+.bibliography li {
+    list-style-type: none;
+    display: inline;
+
+}
