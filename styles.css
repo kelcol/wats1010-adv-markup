@@ -1,5 +1,47 @@
+
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #444444;
+}
+
+
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h1 {
+    color: #444444;
+    background-color: transparent;
+    font-size: 350%;
+    text-align: center;
+    font: Impact;
+    font-variant: small-caps
+}
+
+h2 {
+    color: #444444;
+    background-color: transparent;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+
+
+
+/* Links */
+
 a:link {
-    color: magenta;
+    color: orange;
     background-color: transparent;
     text-decoration: none;
 }
@@ -11,57 +53,58 @@ a:visited {
 }
 
 a:hover {
-    color: blue;
+    color: #8B7A62;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:active {
-    color: yellow;
+    color: orange;
     background-color: transparent;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 
+
+/* Navigation Bars */
+
+
 nav {
-    background-color: turquoise;
-    width: 100;
+    width: 100%;
     font-size: 150%;
     text-align: center;
 }
 
-
-
-table {
-    align-content: center;
+nav ul li{
+    display: inline;
 }
 
 
 
+/* Bibliography */
 
 
-
-
-
-
-caption, cite {
+cite {
     text-align: center;
 }
 
-h2 {
-    background-color: yellow;
-    color: purple;
-}
 
 /* Sidebar - Float */
 
 #sidebar {
-    width: 250px;
+    width: 20%;
     float: right;
-    background-color: #61492C;
+    background-color: orange;
     color: #FFFFFF;
-    margin: 20px;
-    padding: 10px;
+    margin: 2%;
+    padding: 0.5rem;
+}
+
+
+.social li {
+    list-style-type: none;
+    display: inline;
 }
 
 
@@ -71,49 +114,64 @@ h2 {
     list-style-type: none;
 }
 
-div.bio-photo {
-    background-color: #B8A486;
+
+
+/* Image */
+
+
+figure {
     float: left;
-    display: block;
-    align-content: center;
-    margin: 2%;
-    width: 35%;
 }
 
 
+.oval {
+    border-radius: 50%;
+    width:40%;
+}
 
-.bio-photo img {
-    display: block;
-    align-content: center;
-    padding: 2%;
-    margin: auto;
+figcaption {
+    text-align: center;
+    font-size: 70%;
+    width:80%;
 }
 
 
+/* Table */
 
 
-nav ul li{
-    display: inline;
+table {
+    width: 600px;
 }
 
-a.active {
-    font-weight: bold;
+th, td {
+    padding: 7px 10px 10px 10px;
 }
 
-#selected_works {
-    background-color: pink;
-}
-
-#selected_works th, td {
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
     text-align: left;
 }
-
-#selected_works caption {
-    background-color: yellowgreen;
+tr.even {
+    background-color: #efefef;
 }
+tr:hover {
+    background-color: orange;
+}
+
+
+
+/* Footer */
 
 .bibliography li {
     list-style-type: none;
     display: inline;
 
+}
+
+footer {
+    position:absolute;
+    width:100%;
+    bottom:0px;
 }
