@@ -9,14 +9,19 @@ body {
     color: #444444;
 }
 
-
-
-section {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+header {
+    background-color: #efefef;
+    padding: 1rem 1rem;
+    width: 100%;
 }
 
+section {
+    width:60%;
+    margin: 5rem 0rem 20rem 10rem;
+    padding-bottom: 5%;
+    font-size: 150%
+
+}
 
 h1 {
     color: #444444;
@@ -30,13 +35,68 @@ h1 {
 h2 {
     color: #444444;
     background-color: transparent;
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 1rem;
+}
+
+/* Navigation Bars */
+
+
+nav {
+    width: 100%;
     font-size: 150%;
     text-align: center;
 }
 
+nav ul li{
+    display: inline;
+    padding-right: 30px;
+}
 
 
 
+/* Sidebar - Float */
+
+#sidebar {
+    width: 18%;
+    float: right;
+    background-color: orange;
+    color: #FFFFFF;
+    margin: 2%;
+    padding: 0.5rem;
+}
+
+
+.social li {
+    list-style-type: none;
+    padding-right: 30px;
+    display: inline;
+}
+
+/* Image */
+
+figure {
+    float: left;
+}
+
+
+.oval {
+  display: block;
+  align-content: center;
+  border-color: orange;
+  margin: auto;
+  border-radius: 50%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 70%;
+}
 
 /* Links */
 
@@ -66,40 +126,7 @@ a:active {
 }
 
 
-
-/* Navigation Bars */
-
-
-nav {
-    width: 100%;
-    font-size: 150%;
-    text-align: center;
-}
-
-nav ul li{
-    display: inline;
-}
-
-
-
-/* Bibliography */
-
-
-cite {
-    text-align: center;
-}
-
-
-/* Sidebar - Float */
-
-#sidebar {
-    width: 20%;
-    float: right;
-    background-color: orange;
-    color: #FFFFFF;
-    margin: 2%;
-    padding: 0.5rem;
-}
+/* Social Links */
 
 
 .social li {
@@ -108,40 +135,25 @@ cite {
 }
 
 
+
 /* Content */
 
 .poem {
     list-style-type: none;
+    line-height: 150%;
+    font-size: 150%;
+    margin: 20rem 10rem 40rem 10rem;
 }
 
-
-
-/* Image */
-
-
-figure {
-    float: left;
-}
-
-
-.oval {
-    border-radius: 50%;
-    width:40%;
-}
-
-figcaption {
-    text-align: center;
-    font-size: 70%;
-    width:80%;
-}
 
 
 /* Table */
 
-
 table {
-    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 th, td {
     padding: 7px 10px 10px 10px;
@@ -153,13 +165,21 @@ th {
     font-size: 90%;
     text-align: left;
 }
-tr.even {
+
+.even {
     background-color: #efefef;
 }
 tr:hover {
     background-color: orange;
 }
 
+caption {
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    background-color: orange;
+}
 
 
 /* Footer */
@@ -170,8 +190,20 @@ tr:hover {
 
 }
 
-footer {
-    position:absolute;
-    width:100%;
-    bottom:0px;
+cite {
+    text-align: center;
 }
+
+.cite-sidebar sup {
+    color: white;
+}
+
+footer {
+    margin-top: 5em;
+    position: absolute;
+    background-color: #efefef;
+    bottom:0px;
+    width: 100%;
+}
+
+
