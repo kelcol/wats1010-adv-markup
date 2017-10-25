@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Sonnet: to Science - The Mini Site</title>
+<head prefix="og: http://ogp.me/ns#" vocab="http://viaf.org/viaf/data/" prefix="schema: http://schema.org/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta property="og:title" content="Sonnet: to Science - The Mini Site" />
+    <meta property="og:type" content="text" />
+    <meta property="og:image" content="images/Edgar_Allan_Poe_daguerreotype_crop.png" alt="Edgar Allan Poe" />
+    <meta property="schema:about" content="viaf:60351476"
     <meta name="description" content="The advanced markup and page layout assignment.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
@@ -36,7 +39,9 @@
         </ul>
     </aside>
     <section id="content">
-        <ul class="poem"><!-- TODO: Remove bullets and style poem -->
+
+    <span property="dc:title" resource:"Sonnet to Science"@en >
+        <ul class="poem" typeof="schema:CreativeWork" property="dc:creator" content="Edgar Allan Poe"@en>
             <li>Science! true daughter of Old Time thou art!</li>
             <li>Who alterest all things with thy peering eyes.</li>
             <li>Why preyest thou thus upon the poet's heart,</li>
@@ -51,6 +56,7 @@
             <li>Hast thou not torn the Naiad from her flood,</li>
             <li>The Elfin from the green grass, and from me</li>
             <li>The summer dream beneath the tamarind tree?</li>
+            </span>
         </ul>
     </section>
     <footer>
