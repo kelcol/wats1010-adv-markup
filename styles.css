@@ -125,6 +125,10 @@ a:active {
     font-weight: bold;
 }
 
+.active {
+    font-weight: bold;
+}
+
 
 /* Social Links */
 
@@ -142,7 +146,7 @@ a:active {
     list-style-type: none;
     line-height: 150%;
     font-size: 150%;
-    margin: 20rem 10rem 40rem 10rem;
+    margin: 20rem 10rem 4rem 10rem;
 }
 
 
@@ -186,7 +190,7 @@ caption {
 
 .bibliography li {
     list-style-type: none;
-    display: inline;
+    display: block;
 
 }
 
@@ -205,5 +209,4 @@ footer {
     bottom:0px;
     width: 100%;
 }
-
 
